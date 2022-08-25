@@ -1,0 +1,122 @@
+
+body{
+    width: 1536px;
+    height: 100%;
+    margin-left: 0;
+    background: linear-gradient(to bottom right, aqua, yellow, green);
+    background-repeat: no-repeat;
+    background-size: 200%;
+}
+.App {
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    overflow: scroll;
+  }
+  .head {
+    width: 1200px;
+    height: auto;
+    border: 60px black solid;
+    border-image: url("https://media.istockphoto.com/id/165491341/vector/certificate-border.webp?s=612x612&w=is&k=20&c=-XcaAEIZUlxo4hy2Z2HzTBjv811zjl9m_9OO9mEuAMk=")
+      50 round;
+    padding: 40px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS65NMgZkwiodgGJv6r6-UlJqh2Do8T9NUMMg&usqp=CAU");
+    background-size: cover;
+    background-repeat: no-repeat;
+    line-height: 12px;
+    padding-bottom: 80px;
+  }
+  .book {
+    position: absolute;
+    background: rgb(255, 255, 255);
+    top: 298px;
+    width: 100px;
+    left: 290px;
+    height: auto;
+    min-height: 300px;
+    padding: 10px;
+  }
+  .book img {
+    margin-bottom: 10px;
+    overflow: hidden
+  }
+  .book p{
+    margin-bottom: 100%;
+  }
+  .university {
+    margin-top: 0px;
+    line-height: 30px;
+    margin-left: 250px;
+    margin-right: 100px;
+    max-width: 700px;
+  }
+  .body {
+    margin-left: 250px;
+    max-width: 700px;
+    margin-right: 100px;
+  }
+  .body h2{
+    width: 600px;
+    padding: 10px;
+    margin-left: 40px;
+    color:rgb(255, 217, 0);
+  }
+  .body h4 {
+    line-height: 20px;
+  }
+  .foot {
+    width: 1200px;
+    height: 100px;
+    display: flex;
+  }
+  .foot .left {
+    height: 100px;
+    width: 50%;
+    line-height: 15px;
+    margin-top: 20px;
+    margin-right: 300px;
+  }
+  .foot .right {
+    width: 50%;
+    margin-left: 200px;
+    line-height: 1px;
+    color: black;
+  }
+  .inputs{
+    display: flex;
+    justify-content: center;
+    background: burlywood;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+.inputs div{
+    margin-top: 20px;
+    width: 200px;
+  }
+  .inputs button{
+    margin: 20px;
+  }
+  @media screen and (max-width: 600px){
+    body{
+        background: red;
+        width: 1536px;
+        height: 864px;
+        background: linear-gradient(to bottom right, green, yellow, aqua);
+        background-position: center;
+        background-size: 3100px;
+        background-repeat: no-repeat;
+    }
+    /* }
+    .App {
+        width: 225vw;
+        margin: -5px;
+        padding: 0px;
+    }
+    .book{
+        position: absolute;
+        left: 42vw;
+        top: 32.7vh;
+    } */
+  }
+  
